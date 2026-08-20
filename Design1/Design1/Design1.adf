@@ -1,0 +1,75 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=Design1
+
+[Library]
+Design1=.\Design1.lib
+
+[$LibMap$]
+Design1=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[Files]
+/alu.vhd=-1
+/alu_control.vhd=-1
+/Control_Unit.vhd=-1
+/Instruction_Register.vhd=-1
+/MDR.vhd=-1
+/Memory.vhd=-1
+/multicycle.vhd=-1
+/multicycle_tb.vhd=-1
+/mux_2in_5bit.vhd=-1
+/mux_2in_32bit.vhd=-1
+/mux_3in_32bit.vhd=-1
+/mux_4in_32bit.vhd=-1
+/PC.vhd=-1
+/Registers.vhd=-1
+/Shift_Left26To28.vhd=-1
+/Shift_Left32To32.vhd=-1
+/Sign_Extend.vhd=-1
+/tempregisters.vhd=-1
+/Waveform Editor 1.awf=-1
+
+[Files.Data]
+.\src\alu.vhd=VHDL Source Code
+.\src\alu_control.vhd=VHDL Source Code
+.\src\Control_Unit.vhd=VHDL Source Code
+.\src\Instruction_Register.vhd=VHDL Source Code
+.\src\MDR.vhd=VHDL Source Code
+.\src\Memory.vhd=VHDL Source Code
+.\src\multicycle.vhd=VHDL Source Code
+.\src\multicycle_tb.vhd=VHDL Source Code
+.\src\mux_2in_5bit.vhd=VHDL Source Code
+.\src\mux_2in_32bit.vhd=VHDL Source Code
+.\src\mux_3in_32bit.vhd=VHDL Source Code
+.\src\mux_4in_32bit.vhd=VHDL Source Code
+.\src\PC.vhd=VHDL Source Code
+.\src\Registers.vhd=VHDL Source Code
+.\src\Shift_Left26To28.vhd=VHDL Source Code
+.\src\Shift_Left32To32.vhd=VHDL Source Code
+.\src\Sign_Extend.vhd=VHDL Source Code
+.\src\tempregisters.vhd=VHDL Source Code
+.\src\Waveform Editor 1.awf=Waveform File
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=alu|behavioral|0 multicycle|behavioral|0 testbench|behavioral|0 
+ShowHide=ShowTopLevel
+Selected=

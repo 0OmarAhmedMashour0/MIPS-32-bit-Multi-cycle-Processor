@@ -1,0 +1,34 @@
+elbread.dll ver. 1.0.5.365 Wed May 14 02:55:16 2025
+
+
+----------------------------------------------
+Entity                | Architecture | Library
+----------------------------------------------
+testbench             | behavioral   | Design1
+multicycle            | behavioral   | design1
+pc                    | behavioral   | design1
+mux_2in_32bit         | behavioral   | design1
+memory                | behavior     | design1
+instruction_register  | behavioral   | design1
+mdr                   | behavior     | design1
+control_unit          | rtl          | design1
+mux_2in_5bit          | behavioral   | design1
+sign_extend           | rtl          | design1
+shift_left32to32      | behavioral   | design1
+shift_left26to28      | behavioral   | design1
+alu_control           | behavioral   | design1
+registers             | behavior     | design1
+alu                   | behavioral   | design1
+mux_4in_32bit         | behavioral   | design1
+mux_3in_32bit         | behavioral   | design1
+tempregisters         | behavioral   | design1
+----------------------------------------------
+
+-------------------------
+Package         | Library
+-------------------------
+standard        | std
+textio          | std
+std_logic_1164  | ieee
+numeric_std     | ieee
+-------------------------

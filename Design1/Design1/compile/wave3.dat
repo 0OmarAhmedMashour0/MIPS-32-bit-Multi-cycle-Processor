@@ -1,0 +1,97 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 "dut/CLK"
+$IN 5 1 "dut/reset_neg"
+I 2 "a#29#std_logic_vector(31 downto 0)1 ricd31 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 137 2 32 "dut/AluOutToMux"
+$SC 9-133/4
+$BUS S 266 2 32 5 0 LUOut
+$SC 138-262/4
+$BUS S 395 2 32 7 0 _in1
+$SC 267-391/4
+$BUS S 524 2 32 10 0 "2"
+$SC 396-520/4
+$BUS S 653 2 32 "dut/read_data1_internal"
+$SC 525-649/4
+$BUS S 782 2 32 4 9 PC_in
+$SC 654-778/4
+$BUS S 911 2 32 4 9 read_data2
+$SC 783-907/4
+$BUS S +133 2 32 "dut/Jump_address"
+$SC 912-+124/4
+$BUS S +133 2 32 "dut/SL_out_internal_32"
+$SC 1041-+124/4
+$BUS S +133 2 32 "dut/output32_internal"
+$SC 1170-+124/4
+$BUS S +133 2 32 4 9 ALU_Out
+$SC 1299-+124/4
+$BUS S +133 2 32 4 9 Write_data
+$SC 1428-+124/4
+$BUS S +133 2 32 4 9 Data_In
+$SC 1557-+124/4
+$BUS S +133 2 32 9 9 Out
+$SC 1686-+124/4
+$BUS S +133 2 32 4 11 PC_o
+$SC 1815-+124/4
+$BUS S +133 2 32 "dut/result"
+$SC 1944-+124/4
+$BUS S +133 2 32 "dut/address_internal"
+$SC 2073-+124/4
+$BUS S +133 2 32 4 9 WriteData
+$SC 2202-+124/4
+$BUS S +133 2 32 4 13 Mem
+$SC 2331-+124/4
+$BUS S +133 2 32 4 9 IR_in
+$SC 2460-+124/4
+$BUS S +133 2 32 7 9 out
+$SC 2589-+124/4
+$BUS S +133 2 32 4 9 in_reg_A
+$SC 2718-+124/4
+$BUS S +133 2 32 11 9 B
+$SC 2847-+124/4
+$BUS S +133 2 32 11 9 ALUOut
+$SC 2976-+124/4
+$BUS S +133 2 32 4 9 out_reg_A
+$SC 3105-+124/4
+$BUS S +133 2 32 12 9 B
+$SC 3234-+124/4
+$BUS S +133 2 32 12 9 ALUOut
+$SC 3363-+124/4
+I 3 "a#29#std_logic_vector(27 downto 0)1 ricd27 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +117 3 28 "dut/SL_out_internal_28"
+$SC 3492-+108/4
+I 4 "a#29#std_logic_vector(15 downto 0)1 ricd15 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +69 4 16 "dut/input16_internal"
+$SC +-64-+60/4
+I 5 "a#28#std_logic_vector(5 downto 0)1 ricd5 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +29 5 6 4 9 op
+$SC +-24-+20/4
+I 6 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +25 6 5 4 4 Write_register_int
+$SC +-20-+16/4
+I 7 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +21 7 4 "dut/ALU_control_output"
+$SC +-16-+12/4
+I 8 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +13 8 2 7 0 Op_internal
+$SC +-8 +4
+$BUS S +13 8 2 4 9 PCSource
+$SC +-8 +4
+$BUS S +13 8 2 4 9 ALUSrcB
+$SC +-8 +4
+$S +5 1 "dut/PCWrite_inst"
+$S +4 1 "dut/ZeroCarry_TL"
+$S +4 1 "dut/RegDst_internal"
+$S +4 1 4 9 ALUSrcA
+$S +4 1 4 9 MemRead
+$S +4 1 4 9 IRWrite
+$S +4 1 4 14 Mem
+$S +4 1 7 9 toReg
+$S +4 1 4 9 RegWrite
+$S +4 1 4 9 Branch
+$S +4 1 4 9 Jump
+$S +4 1 4 9 PCWrite
+$S +4 1 11 9 Cond
+$S +4 1 4 9 IorD
+$ENDWAVE
